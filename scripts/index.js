@@ -25,7 +25,6 @@ switch (city) {
         return `Франция`
     }
 }
-// country(city)
 }
 
 function sportsman (sport) {
@@ -45,8 +44,8 @@ function sportsman (sport) {
 
 if (year && city && sport) {
 
- if (city === `Киев` || city === `Москва` || city === `Минск`) {
+ if (city === `Киев` || city === `Берлин` || sport === `Париж` || sport === `Футбол`|| sport === `Баскетбол`|| city === `Бокс`) {
         alert(`${age} лет. Ты живешь в ${city}, ${country(city)}. Ты хочешь стать как ${sportsman(sport)}`)
     } else {
-     alert(`${age} лет. Ты живешь в ${city}. Ты хочешь стать как ${sport}`)
+     alert(`${age} лет. Ты живешь в ${city}. Ты хочешь стать известным спортсменом!`)
  }}
